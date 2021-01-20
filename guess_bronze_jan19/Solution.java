@@ -45,6 +45,7 @@ public class Solution {
             for (int j = i + 1; j < keys.length; j++) {
                 HashSet<String> seti = characs.get(keys[i]);
                 HashSet<String> setj = characs.get(keys[j]);
+                // can simply use the retainAll() method from HashSet, didn't realize from earlier
                 for (String s : seti) {
                     if (setj.contains(s)) {
                         curr += 1;
