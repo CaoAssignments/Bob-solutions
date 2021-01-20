@@ -1,6 +1,8 @@
 /**
  * Author: Bob Zhang
  * CSE 199 Winter 2021 - Shell Game Solution
+ * Concepts involved for this challenge: File I/O, arrays & loops
+ * Thoughts to have in mind: to understand how the check function works in this setting
  */
 
 import java.util.Scanner;
@@ -11,7 +13,7 @@ public class Solution {
     private static final int DIGITS_PER_LINE = 3;
     private static final int LAST_DIGIT_IDX = 2;
 
-    // store data for processing in check()
+    // store data for processing in check(). NOT the best practice though
     private static int[] swap1, swap2, guess;
 
     /**
