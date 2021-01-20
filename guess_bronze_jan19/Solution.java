@@ -1,3 +1,10 @@
+/**
+ * Author: Bob Zhang
+ * CSE 199 Winter 2021 - Animal Guess Solution
+ * Concepts involved for this challenge: File I/O, cross array reference (or Map & Set for better performance)
+ * Thoughts to have in mind: the maximum amount of "YES" is the same as the maximum amount of common characteristics for any pair of animals
+ */
+
 import java.util.Set;
 import java.util.HashMap;
 import java.util.HashSet;

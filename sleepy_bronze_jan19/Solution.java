@@ -1,3 +1,12 @@
+/**
+ * Author: Bob Zhang
+ * CSE 199 Winter 2021 - Sleepy Cow Sorting Solution
+ * Concepts involved for this challenge: File I/O, arrays & loops
+ * Thoughts to have in mind: break this problem down to putting the farthermost messed-up cow to the right place
+ *     since we only care about how much iterations we need instead of how to instruct each cow
+ *     which is what I thought we'd be doing...
+ */
+
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
