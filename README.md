@@ -10,7 +10,7 @@ After realizing this, the rest of the problem just became: for all pairs of anim
 
 While iterating through all pairs requires an `O(N^2)` runtime, within each pair we could simply use the `retainAll()` method from `Java`'s `HashSet` class (which I didn't realize when developing this solution in the first place).
 
-##### Required Background
+#### Required Background
 I believe solid understanding of Arrays, Maps, and Sets are required, along with basic File I/O operations.
 
 ### Sleepy Cow Sorting
@@ -18,7 +18,7 @@ My solution was written in `Java`.
 
 Since only one cow is paying attention to the farmer among all `N` cows, if there is a cow in the wrong place at index `k`, we'll need `k` steps to move all other cows behind that cow. Therefore this problem breaks down to finding the farthermost unsorted pair of cows, which could be accomplished with a linear search.
 
-##### Required Background
+#### Required Background
 I believe understanding of Arrays, and linear search are required, along with basic File I/O operations.
 
 ### Guess the Animal
