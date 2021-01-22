@@ -1,5 +1,6 @@
 # UCSD CSE 199 Winter 2021 - USACO Jan 2019 Bronze Level Solution
 Bob's solution to Shell Game, Sleepy Cow Sorting and Guess the Animal
+
 All of these challenges require some sort of problem-breakdown skills which I'm not sure how to deliver. However, problem description along with required tech skills are listed below.
 
 ### Shell Game
