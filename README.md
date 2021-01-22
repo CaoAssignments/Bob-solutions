@@ -11,6 +11,8 @@ After reading this problem, my first thought was to iterate through all steps Be
 
 I was able to figure this out so fast because one of my previous LeetCode challenge followed similar ideas (calculate the total cost, figure out each step's reduction, and return the step with the maximum reduction). The problem setting of Manhattan Distance as well as only skipping one iteration of a checkpoint if the checkpoint is reached multiple times also further reduced the complexity of my thought process.
 
+One key point to mention other than technical implementation I'd like to highlight is the thought process of replacing calculating all combinations of increments with calculating the total cost first followed by trying all kinds of reductions.
+
 ### Crosswords
 
 ### Cow Jog 
