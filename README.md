@@ -3,6 +3,21 @@ Bob's solution to Shell Game, Sleepy Cow Sorting and Guess the Animal
 
 All of these challenges require some sort of problem-breakdown skills which I'm not sure how to deliver. However, problem description along with required tech skills are listed below.
 
+# Week 3
+### Marathon
+My solution was written in `Java`.
+
+After reading this problem, my first thought was to iterate through all steps Bessie has to get through, and find the largest distance increment.
+
+I was able to figure this out so fast because one of my previous LeetCode challenge followed similar ideas (calculate the total cost, figure out each step's reduction, and return the step with the maximum reduction). The problem setting of Manhattan Distance as well as only skipping one iteration of a checkpoint if the checkpoint is reached multiple times also further reduced the complexity of my thought process.
+
+### Crosswords
+
+### Cow Jog 
+
+### Learning by Example
+
+## Week 2
 ### Shell Game
 My solution was written in `Java`.
 
