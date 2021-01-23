@@ -20,6 +20,8 @@ Based on the problem description, I realized that after some long but **finite**
 
 So the problem breaks down to finding these subgroups within cows, which could be finished within a linear search.
 
+Technical skills required: arrays, File I/O
+
 ### Learning by Example
 
 ## Week 2
