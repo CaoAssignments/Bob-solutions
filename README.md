@@ -14,6 +14,9 @@ I was able to figure this out so fast because one of my previous LeetCode challe
 One key point other than technical implementation I'd like to highlight is the thought process of replacing calculating all combinations of increments with calculating the total cost first followed by trying all kinds of reductions.
 
 ### Crosswords
+This challenge could be solved by using a nested loop to iterate through the matrix and search for the corresponding pattern.
+
+Technical skills required: arrays, File I/O, nested for loop
 
 ### Cow Jog 
 Based on the problem description, I realized that after some long but **finite** time, all cows will reach their terminal velocity. Therefore if the first cow runs at velocity 2 initially, then all cows after it cannot run faster than 2 and thus form a group. Yet if another cow behind runs at velocity 1 initially, that cow and every cow after it will form another group since they are never able to catch up with the velocity 2 group (also note that the track is infinitely-long and single-lane, so no loops are possible).
