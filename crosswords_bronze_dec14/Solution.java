@@ -51,6 +51,7 @@ public class Solution {
             int ct = 0;
             char check = 0;
             for (int row = 0; row < puzzle.length - 2; row++) {
+                // missing check for border / up or left is blocked
                 for (col = 0; col < puzzle[row].length - 2; col++) {
                     if (puzzle[row][col].equals("#")) continue;
                     check = chkCrd(row, col);
