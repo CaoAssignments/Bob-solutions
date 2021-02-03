@@ -1,9 +1,14 @@
 # UCSD CSE 199 Winter 2021 - USACO Jan 2019 Bronze Level Solution
 Bob's solution to the challenge prompts (see below)
 
-All of these challenges require some sort of problem-breakdown skills which I'm not sure how to deliver. However, problem description along with required tech skills are listed below.
+~All of these challenges require some sort of problem-breakdown skills which I'm not sure how to deliver. However, problem description along with required tech skills are listed below.~
+Update 2/2: records are no longer maintained here. See CSE 199 Google Sheet for details and classification.
 
 All solutions are writte in `Java`.
+
+## Questions that I was _not_ able to figure out
+USACO 2012 US Open, Problem 4: Unlocking Blocks
+http://www.usaco.org/index.php?page=viewproblem2&cpid=133
 
 ## Week 3
 ### Marathon
