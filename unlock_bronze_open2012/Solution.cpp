@@ -10,7 +10,7 @@ int lis[3][100][2];
 
 int ok[3][3][51][51];
 
-
+// all 4 directions to move
 int dir[4][2] = {-1, 0, 1, 0, 0, 1, 0, -1};
 
 char seen[42][42][42][42];
@@ -46,6 +46,7 @@ char q[3000000][4];
 int tail;
 
 void add (int dx1, int dy1, int dx2, int dy2) {
+    // out of bounds
 	if(dx1 < -LIM || dy1 < -LIM || dx1 > LIM || dy1 > LIM ||
 	   dx2 < -LIM || dy2 < -LIM || dx2 > LIM || dy2 > LIM) return;
 	if(!isOk(dx1, dy1, dx2, dy2)) return;
@@ -82,6 +83,7 @@ int main() {
 		int dx2 = q[i][2];
 		int dy2 = q[i][3];
 		if(dx1 == LIM && dy1 == LIM && dx2 == -LIM && dy2 == -LIM) {
+            // what does put do in this case?
 			puts("1");
 			return 0;
 		}
